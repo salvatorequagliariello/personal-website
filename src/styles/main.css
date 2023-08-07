@@ -1,17 +1,21 @@
 :root {
-    --color-primary: #f1ede9;
+    --color-primary: #f9f5f1;
     --color-secondary: #1A1818;
 
     --accent-color: #D91A33;
     --error-color: #F37C20;
 
-    --font-primary: "SaolDisplay-Regular";
+    --font-primary: 'Basier Circle';;
     --font-secondary: "SaolDisplay-Regular";
 }
 
 [data-theme='dark'] {
     --color-primary: #1A1818;
-    --color-secondary: #f1ede9;
+    --color-secondary: #f9f5f1;
+}
+
+html, body {
+    background-color: var(--color-primary);
 }
 
 .fill-bg {
@@ -22,6 +26,11 @@
     color: var(--color-secondary);
 }
 
+.app-wrapper {
+    width: 100vw;
+    padding: 1rem;
+}
+
 .hoverable:hover {
     font-style: italic;
     color: #D91A33;
@@ -29,9 +38,26 @@
     cursor: pointer;
 }
 
-.h-font-xl {
+.p-font-sm {
     font-family: var(--font-primary);
-    font-size: 10rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.p-font-md {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.p-font-xl {
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.h-font {
+    font-family: var(--font-secondary);
 
     text-transform: uppercase;
 }
