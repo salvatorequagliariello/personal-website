@@ -4,6 +4,10 @@ import App from './App.jsx';
 
 import "./styles/normalize.css";
 import "./styles/reset.css";
+import "./fonts/basier/basier.css"
+import "./fonts/SaolDisplay/saol.css"
+import "./styles/main.css";
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
