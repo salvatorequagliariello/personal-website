@@ -8,6 +8,7 @@ import "./styles/reset.css";
 import "./fonts/basier/basier.css"
 import "./fonts/SaolDisplay/saol.css"
 import "./styles/main.css";
+import "./styles/components-styling/home.css";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

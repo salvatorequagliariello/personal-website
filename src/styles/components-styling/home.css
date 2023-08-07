@@ -1,0 +1,16 @@
+.header-name {
+    font-size: 1.2rem;
+
+    font-weight: 500;
+}
+
+.links-list {
+    margin-top: 10rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.links-list__item {
+    line-height: 0.8;
+}

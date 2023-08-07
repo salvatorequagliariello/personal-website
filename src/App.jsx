@@ -6,6 +6,7 @@ function App() {
 
   return (
     <div  className="app-wrapper">
+      <div></div>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
