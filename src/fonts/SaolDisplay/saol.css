@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "SaolDisplay-Regular";
+    src: url("https://db.onlinewebfonts.com/t/4c4c08af466e9ad071b6d69cf44093df.eot");
+    src:url('./SaolDisplay-Regular.woff') format('woff');
+    font-weight: regular;
+}

@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Basier Circle';
+    src: url('BasierCircle-BoldItalic.eot');
+    src: local('Basier Circle Bold Italic'), local('BasierCircle-BoldItalic'),
+        url('BasierCircle-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Basier Circle';
+    src: url('BasierCircle-Bold.eot');
+    src: local('Basier Circle Bold'), local('BasierCircle-Bold'),
+        url('BasierCircle-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basier Circle';
+    src: url('BasierCircle-MediumItalic.eot');
+    src: local('Basier Circle Medium Itali'), local('BasierCircle-MediumItalic'),
+        url('BasierCircle-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Basier Square';
+    src: url('BasierSquare-SemiBoldItalic.eot');
+    src: local('Basier Square SemiBold Ita'), local('BasierSquare-SemiBoldItalic'),
+        url('BasierSquare-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Basier Circle';
+    src: url('BasierCircle-Italic.eot');
+    src: local('Basier Circle Italic'), local('BasierCircle-Italic'),
+        url('BasierCircle-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Basier Square';
+    src: url('BasierSquare-MediumItalic.eot');
+    src: local('Basier Square Medium Itali'), local('BasierSquare-MediumItalic'),
+        url('BasierSquare-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Basier Circle';
+    src: url('BasierCircle-SemiBold.eot');
+    src: local('Basier Circle SemiBold'), local('BasierCircle-SemiBold'),
+        url('BasierCircle-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basier Circle';
+    src: url('BasierCircle-Medium.eot');
+    src: local('Basier Circle Medium'), local('BasierCircle-Medium'),
+        url('BasierCircle-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basier Circle';
+    src: url('BasierCircle-Regular.eot');
+    src: local('Basier Circle Regular'), local('BasierCircle-Regular'),
+        url('BasierCircle-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basier Circle';
+    src: url('BasierCircle-SemiBoldItalic.eot');
+    src: local('Basier Circle SemiBold Ita'), local('BasierCircle-SemiBoldItalic'),
+        url('BasierCircle-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Basier Square';
+    src: url('BasierSquare-SemiBold.eot');
+    src: local('Basier Square SemiBold'), local('BasierSquare-SemiBold'),
+        url('BasierSquare-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basier Square';
+    src: url('BasierSquare-Medium.eot');
+    src: local('Basier Square Medium'), local('BasierSquare-Medium'),
+        url('BasierSquare-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basier Square';
+    src: url('BasierSquare-BoldItalic.eot');
+    src: local('Basier Square Bold Italic'), local('BasierSquare-BoldItalic'),
+        url('BasierSquare-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Basier Square';
+    src: url('BasierSquare-Italic.eot');
+    src: local('Basier Square Italic'), local('BasierSquare-Italic'),
+        url('BasierSquare-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Basier Square';
+    src: url('BasierSquare-Regular.eot');
+    src: local('Basier Square Regular'), local('BasierSquare-Regular'),
+        url('BasierSquare-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Basier Square';
+    src: url('BasierSquare-Bold.eot');
+    src: local('Basier Square Bold'), local('BasierSquare-Bold'),
+        url('BasierSquare-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

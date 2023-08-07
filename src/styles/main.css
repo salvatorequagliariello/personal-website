@@ -1,0 +1,37 @@
+:root {
+    --color-primary: #f1ede9;
+    --color-secondary: #1A1818;
+
+    --accent-color: #D91A33;
+    --error-color: #F37C20;
+
+    --font-primary: "SaolDisplay-Regular";
+    --font-secondary: "SaolDisplay-Regular";
+}
+
+[data-theme='dark'] {
+    --color-primary: #1A1818;
+    --color-secondary: #f1ede9;
+}
+
+.fill-bg {
+    background-color: var(--color-primary);
+}
+
+.fill-txt {
+    color: var(--color-secondary);
+}
+
+.hoverable:hover {
+    font-style: italic;
+    color: #D91A33;
+
+    cursor: pointer;
+}
+
+.h-font-xl {
+    font-family: var(--font-primary);
+    font-size: 10rem;
+
+    text-transform: uppercase;
+}
