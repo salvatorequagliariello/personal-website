@@ -8,7 +8,7 @@ function sketch(p5) {
   let size = 1;
 
   p5.setup = () => {
-    p5.createCanvas(2 * p5.windowWidth, p5.windowHeight);
+    p5.createCanvas(p5.windowWidth, p5.windowHeight);
     
     p5.stroke(1, 1, 1, 100);
     
@@ -19,22 +19,22 @@ function sketch(p5) {
 
   p5.draw = () => {
     for (const vector of vectors) {
-      let randomisation = p5.noise(vector.x/100, vector.y/100) * p5.TAU;
+      let randomisation = p5.noise(vector.x / 200, vector.y / 200) * p5.TAU;
       
-      vector.add(p5.cos(randomisation), p5.sin(randomisation))
+      vector.add(p5.cos(randomisation), p5.sin(randomisation));
       
       p5.point(
         p5.constrain(vector.x, 0, p5.width),
         p5.constrain(vector.y, 0, p5.height)
-      )
-    }
-  }
+      );
+    };
+  };
 };
 
 const AnimationBg = () => {
   return (
       <ReactP5Wrapper sketch={sketch} />
-    )
-}
+    );
+};
 
 export default AnimationBg;
