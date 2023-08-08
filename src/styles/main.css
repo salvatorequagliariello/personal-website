@@ -85,6 +85,7 @@ canvas {
 
 .h-font-sm {
     font-family: var(--font-secondary);
+    font-size: 3.5rem;
 
     text-transform: uppercase;
 }
@@ -100,4 +101,9 @@ canvas {
     font-family: var(--font-secondary);
 
     text-transform: uppercase;
+}
+
+.content-container {
+    margin-top: 2rem;
+    width: 100%;
 }

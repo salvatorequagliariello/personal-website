@@ -1,0 +1,10 @@
+.work-nav {
+    margin-top: 7rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.work-nav__item {
+    line-height: 0.9;
+}
