@@ -1,17 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,700;1,200;1,400;1,500;1,600;1,700&display=swap');
+
 :root {
-    --color-primary: #f1ede9;
+    --color-primary: #faf8f5;
     --color-secondary: #1A1818;
 
     --accent-color: #D91A33;
     --error-color: #F37C20;
 
-    --font-primary: "SaolDisplay-Regular";
-    --font-secondary: "SaolDisplay-Regular";
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Mioge Free Trial';
 }
 
 [data-theme='dark'] {
     --color-primary: #1A1818;
-    --color-secondary: #f1ede9;
+    --color-secondary: #faf8f5;
+}
+
+html, body {
+    background-color: var(--color-primary);
+}
+
+html, body {
+    overflow: hidden;
+}
+
+.app-wrapper {
+    width: 100vw;
+}
+
+.bg-filler {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 1rem;
+
+    z-index: -90;
+    width: 92%;
+    height: 94%;
+
+    border: 1px solid var(--color-secondary);
+
+    overflow-y: auto;
 }
 
 .fill-bg {
@@ -29,9 +60,39 @@
     cursor: pointer;
 }
 
-.h-font-xl {
+.p-font-sm {
     font-family: var(--font-primary);
-    font-size: 10rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.p-font-md {
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.p-font-xl {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.h-font-sm {
+    font-family: var(--font-secondary);
+
+    text-transform: uppercase;
+}
+
+.h-font-md {
+    font-family: var(--font-secondary);
+    font-size: 4.5rem;
+
+    text-transform: uppercase;
+}
+
+.h-font-xl {
+    font-family: var(--font-secondary);
 
     text-transform: uppercase;
 }

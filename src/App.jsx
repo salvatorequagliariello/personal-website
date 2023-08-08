@@ -1,9 +1,19 @@
+import { Route, Routes } from "react-router-dom"
+
+import Home from "./components/Home"
+import AnimationBg from "./background-animation/animation-script"
+
 function App() {
 
   return (
-    <>
-      <h1 className="h-font-xl">project</h1>
-    </>
+    <div className="app-wrapper">
+      <div className="bg-filler fill-bg">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+      <AnimationBg />
+    </div>
   )
 }
 

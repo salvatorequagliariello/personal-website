@@ -1,0 +1,14 @@
+.header-name {
+    font-weight: 500;
+}
+
+.home-nav {
+    margin-top: 10rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.home-nav__item {
+    line-height: 0.9;
+}
