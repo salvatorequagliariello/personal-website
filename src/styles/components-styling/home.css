@@ -1,16 +1,14 @@
 .header-name {
-    font-size: 1.2rem;
-
     font-weight: 500;
 }
 
-.links-list {
+.home-nav {
     margin-top: 10rem;
 
     display: flex;
     flex-direction: column;
 }
 
-.links-list__item {
-    line-height: 0.8;
+.home-nav__item {
+    line-height: 0.9;
 }
