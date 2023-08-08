@@ -7,10 +7,12 @@ function App() {
 
   return (
     <div className="app-wrapper">
+      <div className="bg-filler fill-bg">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
       <AnimationBg />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
     </div>
   )
 }
