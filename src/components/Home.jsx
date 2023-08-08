@@ -8,7 +8,7 @@ const Home = () => {
 
             <nav className="home-nav">
                 <Link to={"/work"} className="home-nav__item h-font-md fill-txt hoverable">WORK</Link>
-                <Link className="home-nav__item h-font-md fill-txt hoverable">ABOUT</Link>
+                <Link to={"/about"} className="home-nav__item h-font-md fill-txt hoverable">ABOUT</Link>
                 <Link className="home-nav__item h-font-md fill-txt hoverable">CONTACT</Link>
             </nav>
         </div>
