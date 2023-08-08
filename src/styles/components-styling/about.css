@@ -1,0 +1,22 @@
+
+.hi-text__container {
+    margin-top: 2rem;
+
+    text-align: center;
+    position: relative;
+}
+
+.hi-text {
+    font-size: 8rem;
+}
+
+.hi-text__container > h3 {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.bio-text {
+    margin-top: 1rem;
+}

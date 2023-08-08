@@ -97,14 +97,13 @@ canvas {
 .h-font-md {
     font-family: var(--font-secondary);
     font-size: 4.5rem;
-
+    
     text-transform: uppercase;
 }
 
 .h-font-xl {
     font-family: var(--font-secondary);
-
-    text-transform: uppercase;
+    font-size: 5rem;
 }
 
 .content-container {
