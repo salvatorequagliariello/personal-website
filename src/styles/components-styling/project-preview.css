@@ -7,10 +7,21 @@
     gap: 1rem;
 }
 
+.project-title__container {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: baseline;
+}
+
 .project-title {
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.5rem;
 
     font-weight: 500;
+}
+
+.project-image {
+    border: 1px solid var(--color-secondary);
 }
 
 .project-stack {
