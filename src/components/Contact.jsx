@@ -86,7 +86,7 @@ const Contact = () => {
                         {formik.touched.message && formik.errors.message && <p className="form__error-message p-font-sm">{formik.errors.message}</p>}
                     </div>
 
-                        <button type="submit" className="form-button p-font-md fill-txt interactable-txt">SEND</button>
+                        <button type="submit" className="form-button p-font-md fill-txt hoverable">SEND</button>
                 </form>
             }
                 {formSubmission.submitted && formSubmission.errors.length == 0 && 
