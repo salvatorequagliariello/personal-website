@@ -25,6 +25,7 @@ import "./styles/media-queries/width>425px.css";
 import "./styles/media-queries/width>600px.css";
 import "./styles/media-queries/width>900px.css";
 import "./styles/media-queries/width>1100px.css";
+import "./styles/media-queries/width>1440px.css";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

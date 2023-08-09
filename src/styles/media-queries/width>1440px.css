@@ -1,55 +1,28 @@
-@media (width > 900px)  {
+@media (width > 1440px)  {
     /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
     /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
     .bg-filler {    
-        padding: 2.5rem 4rem;
+        padding: 2.5rem 6rem;
     
-        width: 45rem;
-        height: 94%;
-    }
-
-    .p-font-sm {
-        font-size: 0.95rem;
-    
-        line-height: 1.20;
-    }
-    
-    .p-font-md {
-        font-size: 1.1rem;
-        letter-spacing: 0.2px;
-    }
-    
-    .p-font-l {
-        font-size: 1.25rem;
-    }
-    
-    .p-font-xl {
-        font-size: 1.55rem;
+        width: 80%;
+        height: 92%;
     }
 
     .h-font-sm {
-        font-size: 5rem;
+        font-size: 6.25rem;
     
         text-transform: uppercase;
     }
     
     .h-font-md {
-        font-size: 6rem;
+        font-size: 8rem;
         
         text-transform: uppercase;
     }
     
     .h-font-xl {
-        font-size: 5rem;
+        font-size: 10rem;
     }
-
-    /* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
-    /* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
-    .header-name {
-        font-size: 1.2rem;
-        font-weight: 500;
-    }
-
 
     /* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
     /* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
@@ -61,22 +34,30 @@
     }
 
     .hi-text {
-        font-size: 8rem;
+        font-size: 11rem;
+    }
+
+    .hi-text__container > h3 {
+        position: absolute;
+        bottom: 2.2rem;
+        left: 50%;
+        transform: translate(-50%, 0);
     }
 
     /* PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE */
     /* PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE */
     .project-preview__container {
+        width: 90%;
         gap: 2rem;
     }
 
     .project-title {
-        font-size: 2rem;
+        font-size: 2.3rem;
         margin-bottom: 1rem;
     }
 
     .project-title__icon {
-        height: 1.2rem;
+        height: 1.3rem;
     }
 
     .project-image {
@@ -84,7 +65,7 @@
         margin: 0 auto;
 
         width: 100%;
-        max-height: 20rem;
+        max-height: 100%;
 
         border: 1px solid var(--color-secondary);
     }
@@ -92,11 +73,11 @@
     /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
     /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
     .contact-header > h1 {
-        font-size: 7rem;
+        font-size: 9rem;
     }
 
     .contact-header > p {
-        bottom: 1rem;
+        bottom: 1.6rem;
     }
 
     .contact-form {
@@ -113,8 +94,16 @@
         bottom: -1rem;
     }
 
+    .form-button {
+        margin: 0.5rem auto;
+        padding: 0.8rem 5rem;
+    
+        background: none;
+        border: 1px solid var(--color-secondary);
+    }
+
     .submission-message__title {
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: 500;
     }
 }
