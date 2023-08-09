@@ -5,7 +5,7 @@ const About = () => {
     const [hiAnimation,  setHiAnimation] = useState(true);
 
     return (
-        <div className="animate__animated animate__fadeIn">
+        <div className="animate__animated animate__fadeIn" onAnimationEnd={e => e.target.classList.remove("animate__animated")}>
             <PageNavigator path={"/"} page={"ABOUT"} />
             <div className="content-container">
                 <div className="hi-text__container">
