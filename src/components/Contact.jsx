@@ -23,7 +23,7 @@ const Contact = () => {
             message: Yup.string().required(`Would you really send an empty message? :c`)
         }),
         onSubmit: (values, onSubmitProps) => {
-                emailjs.sendForm("service_uf8c07b", 'template_br8of41', ".contact__form", '1eM3d97JibQ3jXaV0')
+                emailjs.sendForm("service_uf8c07b", 'template_br8of41', ".contact-form", '1eM3d97JibQ3jXaV0')
                 .then(response => {
                     onSubmitProps.setSubmitting(false);
                     onSubmitProps.resetForm();
@@ -90,16 +90,16 @@ const Contact = () => {
                 </form>
             }
                 {formSubmission.submitted && formSubmission.errors.length == 0 && 
-                    <div className="contact__form-message animate__animated animate__fadeIn">
+                    <div className="submission-message animate__animated animate__fadeIn">
                         <h1 className="p-font-xl fill-txt animate__animated animate__tada animate__delay-1s">{":)"}</h1>
-                        <p className="p-font-xl fill-txt">Thank you for getting in touch!</p>
-                        <p className="p-font-md fill-txt">I've received your message and will respond within 24 hours.</p>
+                        <p className="submission-message__title p-font-md fill-txt">Thank you for getting in touch!</p>
+                        <p className="p-font-sm fill-txt">I've received your message and will respond within 24 hours.</p>
                     </div>
                 }
                 {!formSubmission.submitted && formSubmission.errors.length >= 1 && 
-                    <div className="contact__form-message animate__animated animate__fadeIn">
+                    <div className="submission-message animate__animated animate__fadeIn">
                         <h1 className="p-font-xl fill-txt animate__animated animate__tada animate__delay-1s">{":("}</h1>
-                        <p className="p-font-xl fill-txt">Something gone wrong!</p>
+                        <p className="submission-message__title p-font-md fill-txt">Something gone wrong!</p>
                         <p className="p-font-md fill-txt">Please, try again later!</p>
                     </div>
                 }
