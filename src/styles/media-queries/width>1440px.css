@@ -1,0 +1,109 @@
+@media (width > 1440px)  {
+    /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+    /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+    .bg-filler {    
+        padding: 2.5rem 6rem;
+    
+        width: 80%;
+        height: 92%;
+    }
+
+    .h-font-sm {
+        font-size: 6.25rem;
+    
+        text-transform: uppercase;
+    }
+    
+    .h-font-md {
+        font-size: 8rem;
+        
+        text-transform: uppercase;
+    }
+    
+    .h-font-xl {
+        font-size: 10rem;
+    }
+
+    /* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
+    /* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
+    .hi-text__container {
+        margin-top: 2rem;
+
+        text-align: center;
+        position: relative;
+    }
+
+    .hi-text {
+        font-size: 11rem;
+    }
+
+    .hi-text__container > h3 {
+        position: absolute;
+        bottom: 2.2rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    /* PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE */
+    /* PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE */
+    .project-preview__container {
+        width: 90%;
+        gap: 2rem;
+    }
+
+    .project-title {
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .project-title__icon {
+        height: 1.3rem;
+    }
+
+    .project-image {
+        align-self: center;
+        margin: 0 auto;
+
+        width: 100%;
+        max-height: 100%;
+
+        border: 1px solid var(--color-secondary);
+    }
+
+    /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
+    /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
+    .contact-header > h1 {
+        font-size: 9rem;
+    }
+
+    .contact-header > p {
+        bottom: 1.6rem;
+    }
+
+    .contact-form {
+        width: 22rem;
+        gap: 2.6rem;
+    }
+
+    .form__error-message {
+        bottom: -1.3rem;
+        font-size: 0.8rem;
+    }
+
+    .text-area__message {
+        bottom: -1rem;
+    }
+
+    .form-button {
+        margin: 0.5rem auto;
+        padding: 0.8rem 5rem;
+    
+        background: none;
+        border: 1px solid var(--color-secondary);
+    }
+
+    .submission-message__title {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}

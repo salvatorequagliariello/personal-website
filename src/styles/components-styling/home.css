@@ -11,4 +11,6 @@
 
 .home-nav__item {
     line-height: 0.9;
+
+    width: max-content;
 }

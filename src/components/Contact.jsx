@@ -83,7 +83,7 @@ const Contact = () => {
                         onBlur={formik.handleBlur}
                         className={`form-input text-area p-font-md fill-txt ${formik.touched.message && formik.errors.message ? "form-input__error" : ""}`}
                         />
-                        {formik.touched.message && formik.errors.message && <p className="form__error-message p-font-sm">{formik.errors.message}</p>}
+                        {formik.touched.message && formik.errors.message && <p className="form__error-message text-area__message p-font-sm">{formik.errors.message}</p>}
                     </div>
 
                         <button type="submit" className="form-button p-font-md fill-txt hoverable">SEND</button>

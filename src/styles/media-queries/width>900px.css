@@ -1,0 +1,120 @@
+@media (width > 900px)  {
+    /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+    /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+    .bg-filler {    
+        padding: 2.5rem 4rem;
+    
+        width: 45rem;
+        height: 94%;
+    }
+
+    .p-font-sm {
+        font-size: 0.95rem;
+    
+        line-height: 1.20;
+    }
+    
+    .p-font-md {
+        font-size: 1.1rem;
+        letter-spacing: 0.2px;
+    }
+    
+    .p-font-l {
+        font-size: 1.25rem;
+    }
+    
+    .p-font-xl {
+        font-size: 1.55rem;
+    }
+
+    .h-font-sm {
+        font-size: 5rem;
+    
+        text-transform: uppercase;
+    }
+    
+    .h-font-md {
+        font-size: 6rem;
+        
+        text-transform: uppercase;
+    }
+    
+    .h-font-xl {
+        font-size: 5rem;
+    }
+
+    /* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+    /* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+    .header-name {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+
+    /* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
+    /* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
+    .hi-text__container {
+        margin-top: 2rem;
+
+        text-align: center;
+        position: relative;
+    }
+
+    .hi-text {
+        font-size: 8rem;
+    }
+
+    /* PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE */
+    /* PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE */
+    .project-preview__container {
+        gap: 2rem;
+    }
+
+    .project-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .project-title__icon {
+        height: 1.2rem;
+    }
+
+    .project-image {
+        align-self: center;
+        margin: 0 auto;
+
+        width: 100%;
+        max-height: 20rem;
+
+        border: 1px solid var(--color-secondary);
+    }
+
+    /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
+    /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
+    .contact-header > h1 {
+        font-size: 7rem;
+    }
+
+    .contact-header > p {
+        bottom: 1rem;
+    }
+
+    .contact-form {
+        width: 22rem;
+        gap: 2.6rem;
+    }
+
+    .form__error-message {
+        bottom: -1.3rem;
+        font-size: 0.8rem;
+    }
+
+    .text-area__message {
+        bottom: -1rem;
+    }
+
+    .submission-message__title {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
