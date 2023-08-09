@@ -50,6 +50,20 @@
         font-weight: 500;
     }
 
+
+    /* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
+    /* ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
+    .hi-text__container {
+        margin-top: 2rem;
+
+        text-align: center;
+        position: relative;
+    }
+
+    .hi-text {
+        font-size: 8rem;
+    }
+
     /* PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE */
     /* PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE */
     .project-image {
@@ -65,10 +79,29 @@
     /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
     /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
     .contact-header > h1 {
-        font-size: 6rem;
+        font-size: 7rem;
+    }
+
+    .contact-header > p {
+        bottom: 1rem;
     }
 
     .contact-form {
-        width: 25rem;
+        width: 22rem;
+        gap: 2.6rem;
+    }
+
+    .form__error-message {
+        bottom: -1.3rem;
+        font-size: 0.8rem;
+    }
+
+    .text-area__message {
+        bottom: -1rem;
+    }
+
+    .submission-message__title {
+        font-size: 1.5rem;
+        font-weight: 500;
     }
 }

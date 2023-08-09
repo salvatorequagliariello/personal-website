@@ -49,6 +49,10 @@
         font-size: 5.2rem;
     }
 
+    .contact-header > p {
+        bottom: 0.7rem;
+    }
+
     .form__error-message {
         bottom: -1rem;
     }
