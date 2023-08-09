@@ -1,3 +1,59 @@
 @media (width > 425px)  {
+    /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+    /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+    .bg-filler {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     
+        padding: 1.5rem;
+    
+        z-index: -90;
+        width: 92%;
+        height: 94%;
+    
+        border: 1px solid var(--color-secondary);
+    
+        overflow-y: auto;
+    }
+
+    .h-font-md {
+        font-size: 5.5rem;
+    }
+
+    .h-font-sm {
+        font-size: 4.25rem;
+    }
+
+    /* PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE */
+    /* PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE */
+    .project-preview__container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .project-image {
+        align-self: center;
+        margin: 0 auto;
+
+        width: 100%;
+        max-height: 17rem;
+
+        border: 1px solid var(--color-secondary);
+    }
+
+    /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
+    /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
+    .contact-header > h1 {
+        font-size: 5.2rem;
+    }
+
+    .form__error-message {
+        bottom: -1rem;
+    }
+    
+    .text-area__message {
+        bottom: auto
+    }    
 }

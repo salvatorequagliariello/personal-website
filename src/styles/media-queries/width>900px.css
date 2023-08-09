@@ -1,0 +1,74 @@
+@media (width > 900px)  {
+    /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+    /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN */
+    .bg-filler {    
+        padding: 2.5rem 4rem;
+    
+        width: 45rem;
+        height: 94%;
+    }
+
+    .p-font-sm {
+        font-size: 0.95rem;
+    
+        line-height: 1.20;
+    }
+    
+    .p-font-md {
+        font-size: 1.1rem;
+        letter-spacing: 0.2px;
+    }
+    
+    .p-font-l {
+        font-size: 1.25rem;
+    }
+    
+    .p-font-xl {
+        font-size: 1.55rem;
+    }
+
+    .h-font-sm {
+        font-size: 5rem;
+    
+        text-transform: uppercase;
+    }
+    
+    .h-font-md {
+        font-size: 6rem;
+        
+        text-transform: uppercase;
+    }
+    
+    .h-font-xl {
+        font-size: 5rem;
+    }
+
+    /* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+    /* HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME HOME */
+    .header-name {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    /* PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE */
+    /* PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE PROJECT PAGE */
+    .project-image {
+        align-self: center;
+        margin: 0 auto;
+
+        width: 100%;
+        max-height: 20rem;
+
+        border: 1px solid var(--color-secondary);
+    }
+
+    /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
+    /* CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT */
+    .contact-header > h1 {
+        font-size: 6rem;
+    }
+
+    .contact-form {
+        width: 25rem;
+    }
+}
