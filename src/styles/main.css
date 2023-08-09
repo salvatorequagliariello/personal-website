@@ -5,7 +5,7 @@
     --color-secondary: #1A1818;
 
     --accent-color: #D91A33;
-    --error-color: #F37C20;
+    --error-color: #f36b02;
 
     --font-primary: 'Montserrat', sans-serif;
     --font-secondary: 'Mioge Free Trial';
@@ -45,6 +45,7 @@ canvas {
     position: absolute;
     top: 0;
     left: 0;
+    background-color: var(--color-primary);
 
     width: 100%;
     z-index: -100;
@@ -79,6 +80,12 @@ canvas {
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.2px;
+}
+
+.p-font-l {
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .p-font-xl {

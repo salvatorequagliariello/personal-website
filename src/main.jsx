@@ -18,7 +18,10 @@ import "./styles/components-styling/page-navigator.css";
 import "./styles/components-styling/work.css";
 import "./styles/components-styling/project-preview.css";
 import "./styles/components-styling/about.css";
+import "./styles/components-styling/contact.css";
 
+import "./styles/media-queries/width<320px.css";
+import "./styles/media-queries/width>425px.css";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

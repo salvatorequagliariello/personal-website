@@ -3,7 +3,7 @@ import PageNavigator from "./PageNavigator";
 
 const Work = () => {
     return (
-        <div className="animate__animated animate__fadeIn">
+        <div className="animate__animated animate__fadeIn" onAnimationEnd={e => e.target.classList.remove("animate__animated")}>
             <PageNavigator path={"/"} page={"WORK"} />
             <div className="nav">
                 <nav className="work-nav">

@@ -4,7 +4,7 @@ import PageNavigator from "./PageNavigator"
 
 const ProjectPreview = ({projectTitle, projectDescription, projectLink, projectTech, projectImg}) => {
     return (
-        <div className="animate__animated animate__fadeIn">
+        <div className="animate__animated animate__fadeIn" onAnimationEnd={e => e.target.classList.remove("animate__animated")}>
             <PageNavigator path={"/work"} page={projectTitle} />
             <div className="project-preview__container content-container">
                 <div>
@@ -19,10 +19,10 @@ const ProjectPreview = ({projectTitle, projectDescription, projectLink, projectT
                     </div>
                     <img  className="project-image" src={projectImg} />
                 </div>
-                    <p className="p-font-sm fill-txt">{projectDescription}</p>
+                    <p className="p-font-md fill-txt">{projectDescription}</p>
                 <div>
-                    <p className="project-stack p-font-md fill-txt">TECH STACK</p>
-                    <p className="p-font-sm fill-txt">{projectTech}</p>
+                    <p className="project-stack p-font-l fill-txt">TECH STACK</p>
+                    <p className="p-font-md fill-txt">{projectTech}</p>
                 </div>
             </div>
         </div>
