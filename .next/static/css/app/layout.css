@@ -59,7 +59,7 @@
 
 @font-face {
     font-family: 'Neue Montreal';
-    src: url(/_next/static/media/NeueMontreal-MediumItalic.ef46db37.woff) format('woff');
+    src: url(/_next/static/media/NeueMontreal-MediumItalic.037a0838.woff) format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -585,6 +585,21 @@ video {
 .w-screen {
   width: 100vw;
 }
+@keyframes fade-down {
+
+  0% {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-down {
+  animation: fade-down 1s both;
+}
 @keyframes fade-right {
 
   0% {
@@ -614,21 +629,6 @@ video {
 }
 .animate-fade-up {
   animation: fade-up 1s both;
-}
-@keyframes fade-down {
-
-  0% {
-    opacity: 0;
-    transform: translateY(-2rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.animate-fade-down {
-  animation: fade-down 1s both;
 }
 .flex-row {
   flex-direction: row;
@@ -663,21 +663,8 @@ video {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-.font-bold {
-  font-weight: 700;
-}
 .font-light {
   font-weight: 300;
-}
-.font-normal {
-  font-weight: 400;
-}
-.font-medium {
-  font-weight: 500;
 }
 .text-primary {
   --tw-text-opacity: 1;
@@ -685,12 +672,6 @@ video {
 }
 .opacity-100 {
   opacity: 1;
-}
-.animate-delay-300 {
-  animation-delay: 300ms;
-}
-.animate-delay-1000 {
-  animation-delay: 1000ms;
 }
 .animate-normal {
   animation-direction: normal;
@@ -705,24 +686,23 @@ video {
   animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
-:root {
-  --foreground-rgb: #1A1818;
-  --background-start-rgb: #1A1818;
-  --background-end-rgb: #1A1818;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 html {
   scroll-behavior: smooth;
   font-family: 'Neue Montreal';
 }
+
+
+.hover\:italic:hover {
+  font-style: italic;
+}
+
+
+.hover\:text-accentred:hover {
+  --tw-text-opacity: 1;
+  color: rgb(217 26 51 / var(--tw-text-opacity));
+}
+
 
 @media (prefers-color-scheme: dark) {
 

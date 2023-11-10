@@ -12,9 +12,9 @@ export default function Home() {
           className="w-full my-4 h-0.5 opacity-100 bg-primary dark:bg-secondary animate-fade-right animate-once animate-ease-out animate-normal animate-fill-forwards" 
         />
         <div className="flex flex-row justify-center flex-wrap gap-10 animate-fade-down animate-once animate-delay-900 animate-normal animate-fill-forwards">
-          <Link href='/about'>about</Link>
-          <Link href='/projects'>projects</Link>
-          <Link href='/contact'>contact</Link>
+          <Link href='/about' className="hover:text-accentred hover:italic">about</Link>
+          <Link href='/projects' className="hover:text-accentred hover:italic">projects</Link>
+          <Link href='/contact' className="hover:text-accentred hover:italic">contact</Link>
         </div>
       </div>
     </div>

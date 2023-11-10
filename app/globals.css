@@ -4,19 +4,6 @@
 
 @import url('public/fonts/neue montreal/stylesheet.css');
 
-:root {
-  --foreground-rgb: #1A1818;
-  --background-start-rgb: #1A1818;
-  --background-end-rgb: #1A1818;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 html {
   scroll-behavior: smooth;
