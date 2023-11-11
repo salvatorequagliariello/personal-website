@@ -3,15 +3,15 @@ import Link from "next/link";
 const About = () => {
     return (
         <div className="h-screen py-5 sm:py-0 sm:pt-7 flex flex-col gap-7 sm:flex-row sm:gap-5 place-content-center align-center">
-            <div className="h-min mx-auto sm:mx-0 text-center flex gap-4">
-                <Link href="/" className="hov-txt h-min font-light">
+            <div className="sm:h-4/5 mx-auto sm:mx-0 text-center flex gap-2 animate-fade-up sm:animate-fade-left animate-once animate-ease-out animate-normal animate-fill-forwards">
+                <Link href="/" className="hov-txt h-min font-light underline">
                     home
                 </Link>
                 <div>
                     <p className="">// about</p>
                 </div>
             </div>
-            <div className="h-min px-5 text-justify sm:px-0 sm:w-72 sm:text-left overflow-y-auto">
+            <div className="sm:h-4/5 px-5 text-justify sm:px-0 sm:w-72 sm:border-l-2 sm:border-primary dark:sm:border-secondary sm:pl-3 sm:text-left overflow-y-auto animate-fade-down sm:animate-fade-right animate-once animate-ease-out animate-normal animate-fill-forwards animate-delay-2000 scroll-smooth">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, dui in dignissim feugiat, libero magna tincidunt sapien, a rhoncus neque risus sed neque. Vivamus tincidunt, ipsum in tincidunt egestas, diam est pretium eros, et blandit leo orci id odio. Ut at ante et diam finibus tincidunt. Nunc ac vulputate justo. Quisque sollicitudin sem vitae sapien mattis pulvinar.
                 </p>
