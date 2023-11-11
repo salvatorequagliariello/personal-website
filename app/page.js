@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Home() {
+const Home = () => {
   return (
       <div className="w-max h-screen m-auto flex flex-col text-center place-content-center">
         <div className="animate-fade-up animate-once animate-delay-900 animate-normal animate-fill-forwards">
@@ -18,3 +18,5 @@ export default function Home() {
       </div>
   )
 }
+
+export default Home;
