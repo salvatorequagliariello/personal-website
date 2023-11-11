@@ -9,3 +9,7 @@ html {
   scroll-behavior: smooth;
   font-family: 'Neue Montreal';
 }
+
+.hov-txt:hover {
+  background-color: #D91A33;
+}
