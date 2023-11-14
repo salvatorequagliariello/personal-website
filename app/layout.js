@@ -1,3 +1,4 @@
+import PageContainer from './components/PageContainer'
 import './globals.css'
 
 export const metadata = {
@@ -11,7 +12,9 @@ export default function RootLayout({ children }) {
       <body 
         className='bg-secondary text-primary dark:bg-primary dark:text-secondary'
       >
+        <PageContainer>
           {children}
+        </PageContainer>
       </body>
     </html>
   )

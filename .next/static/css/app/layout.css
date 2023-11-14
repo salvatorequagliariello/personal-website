@@ -559,6 +559,10 @@ video {
 .m-auto {
   margin: auto;
 }
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 .mt-4 {
   margin-top: 1rem;
 }
@@ -578,6 +582,30 @@ video {
 }
 .w-screen {
   width: 100vw;
+}
+.w-48 {
+  width: 12rem;
+}
+.w-8 {
+  width: 2rem;
+}
+.w-24 {
+  width: 6rem;
+}
+.w-52 {
+  width: 13rem;
+}
+.w-1\/2 {
+  width: 50%;
+}
+.w-2\/3 {
+  width: 66.666667%;
+}
+.w-1\/3 {
+  width: 33.333333%;
+}
+.w-2\/4 {
+  width: 50%;
 }
 @keyframes fade {
 
@@ -896,6 +924,26 @@ html {
       --tw-border-opacity: 1;
       border-color: rgb(250 248 245 / var(--tw-border-opacity));
     }
+  }
+}
+
+@media (min-width: 768px) {
+
+  .md\:px-96 {
+    padding-left: 24rem;
+    padding-right: 24rem;
+  }
+
+  .md\:pt-24 {
+    padding-top: 6rem;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .md\:pt-16 {
+    padding-top: 4rem;
   }
 }
 
