@@ -2,20 +2,22 @@ import Link from "next/link";
 
 const Home = () => {
   return (
-      <div className="w-max h-screen m-auto flex flex-col text-center place-content-center">
-        <div className="animate-fade-up animate-once animate-delay-900 animate-normal animate-fill-forwards">
-          <h2 className="text-xl">Salvatore Quagliariello</h2>
-          <h4 className="text-lg font-light">Front-end Developer</h4>
+    <div>
+      <div class="big-circle bg-primary dark:bg-secondary animate-fade animate-once animate-normal animate-fill-forwards hover:bg-accentred">
+        <div class="small-circle bg-secondary dark:bg-primary"></div>
+      </div>
+      <div className="pt-24 px-96 h-screen flex text-center justify-between font-light">
+        <div className="text-left animate-fade-right animate-once animate-delay-900 animate-normal animate-fill-forwards">
+          <h2 className="text-3xl">Salvatore Quagliariello</h2>
+          <h4 className="text-xl font-thin">Front-end Developer</h4>
         </div>
-        <hr 
-          className="w-full my-4 h-0.5 opacity-100 bg-primary dark:bg-secondary animate-fade-right animate-once animate-ease-out animate-normal animate-fill-forwards" 
-        />
-        <div className="flex flex-col sm:flex-row justify-center flex-wrap gap-3 sm:gap-10 animate-fade-down animate-once animate-delay-900 animate-normal animate-fill-forwards">
-          <Link href='/about' className="hov-txt text-lg">about</Link>
-          <Link href='/projects' className="hov-txt text-lg">projects</Link>
-          <Link href='/contact' className="hov-txt text-lg">contact</Link>
+        <div className="h-min flex flex-col sm:flex-row justify-center flex-wrap gap-3 sm:gap-10 animate-fade-left animate-once animate-delay-900 animate-normal animate-fill-forwards">
+          <Link href='/about' className="hov-txt text-xl italic">about</Link>
+          <Link href='/projects' className="hov-txt text-xl italic">projects</Link>
+          <Link href='/contact' className="hov-txt text-xl italic">contact</Link>
         </div>
       </div>
+    </div>
   )
 }
 
