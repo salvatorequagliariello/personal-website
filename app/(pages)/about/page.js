@@ -3,7 +3,7 @@ import Navigator from "@/app/components/Navigator";
 const About = () => {
     return (
         <div>
-            <Navigator pageName='about' />
+            <Navigator pageName='about' path='/' pathName='home'/>
             <div className="text-justify text animate-fade-up animate-once animate-ease-out animate-normal animate-fill-forwards animate-delay-2000 scroll-smooth">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, dui in dignissim feugiat, libero magna tincidunt sapien, a rhoncus neque risus sed neque. Vivamus tincidunt, ipsum in tincidunt egestas, diam est pretium eros, et blandit leo orci id odio. Ut at ante et diam finibus tincidunt. Nunc ac vulputate justo. Quisque sollicitudin sem vitae sapien mattis pulvinar.

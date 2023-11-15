@@ -6,7 +6,7 @@ const ProjectPage = ({ params }) => {
 
     return (
         <div>
-            <Navigator pageName={project} path='/projects'/>
+            <Navigator pageName={project} path='/projects' pathName='projects'/>
             <p>
                 {project}
             </p>
