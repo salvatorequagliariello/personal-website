@@ -13,6 +13,8 @@ html {
 .hov-txt:hover {
   color: #D91A33;
   text-decoration: line-through;
+
+  cursor: pointer;
 }
 
 .big-circle {

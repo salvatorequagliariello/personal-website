@@ -1,5 +1,4 @@
 import Link from "next/link";
-import PageContainer from "./components/PageContainer";
 
 const Home = () => {
   return (
@@ -15,8 +14,8 @@ const Home = () => {
           <Link href='/contact' className="hov-txt text-xl leading-10">contact</Link>
         </div>
       </div>
-      <div class="big-circle bg-primary dark:bg-secondary animate-fade animate-once animate-normal animate-fill-forwards hover:bg-accentred">
-        <div class="small-circle bg-secondary dark:bg-primary"></div>
+      <div className="big-circle bg-primary dark:bg-secondary animate-fade animate-once animate-normal animate-fill-forwards hover:bg-accentred">
+        <div className="small-circle bg-secondary dark:bg-primary"></div>
       </div>
     </div>
   )
