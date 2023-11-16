@@ -1,4 +1,5 @@
 import CustomNavigator from "../../../components/CustomNavigator";
+import { LuLink } from "react-icons/lu";
 
 const projects = [
     {
@@ -41,7 +42,8 @@ const ProjectPage = ({ params }) => {
                 <div className="w-full text-center flex gap-3 place-content-center">
                     <a href={project.githubLink} className="hov-txt">GitHub</a>
                     <p>//</p>
-                    <a href={project.liveLink} className="hov-txt">Live Website</a>
+                    <a href={project.liveLink} className="hov-txt">
+                    </a>
                 </div>
                 <div className="text-xl">
                     <h3 className="inline">Tech stack: </h3>
