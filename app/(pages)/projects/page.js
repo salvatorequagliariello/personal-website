@@ -1,9 +1,47 @@
+import CustomNavigator from "../../components/CustomNavigator";
+import ProjectPreview from "../../components/ProjectPreview";
+
+const projects = [
+    {
+        name: 'Portfolio',
+        image: '/images/portfolio-screen.png'
+    },
+    {
+        name: 'Timeless',
+        image: '/images/timeless-screen.png'
+    },
+    {
+        name: 'ai.GO',
+        image: '/images/aigo-screen.png'
+    },
+    {
+        name: 'eCommerce CRM',
+        image: '/images/crm-screen.png'
+    },
+    {
+        name: 'uChat',
+        image: '/images/uchat-screen.png'
+    },
+    {
+        name: 'Lotto Game',
+        image: '/images/lotto-screen.png'
+    },
+]
 
 const Projects = () => {
     return (
-        <div className="w-screen h-screen flex flex-col text-center place-content-center">
-            <div className="w-max m-auto flex flex-col text-center place-content-center">
-                
+        <div className="w-full">
+            <CustomNavigator pageName='projects' path='/' pathName='home'/>
+            <div className="w-full pb-36 animate-fade-up animate-once animate-ease-out animate-normal animate-fill-forwards animate-delay-2000 scroll-smooth">
+                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-10">
+                    {projects.map(project => {
+                        return (
+                        <li className="w-full h-80">
+                            <ProjectPreview name={project.name} image={project.image} />
+                        </li>
+                        )
+                    })}
+                </ul>
             </div>
         </div>
     )
