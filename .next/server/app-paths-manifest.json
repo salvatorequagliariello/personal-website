@@ -2,6 +2,5 @@
   "/(pages)/about/page": "app/(pages)/about/page.js",
   "/(pages)/projects/page": "app/(pages)/projects/page.js",
   "/(pages)/projects/[project]/page": "app/(pages)/projects/[project]/page.js",
-  "/page": "app/page.js",
-  "/(pages)/contact/page": "app/(pages)/contact/page.js"
+  "/page": "app/page.js"
 }

@@ -3,6 +3,9 @@ import Link from "next/link";
 const Home = () => {
   return (
     <div>
+      <div className="big-circle bg-primary dark:bg-secondary animate-fade animate-once animate-normal animate-fill-forwards hover:bg-accentred">
+        <div className="small-circle bg-secondary dark:bg-primary"></div>
+      </div>
       <div className="flex text-center justify-between font-light">
         <div className="text-left animate-fade-right animate-once animate-delay-900 animate-normal animate-fill-forwards">
           <h2 className="text-3xl">Salvatore Quagliariello</h2>
@@ -13,9 +16,6 @@ const Home = () => {
           <Link href='/projects' className="hov-txt text-xl leading-10">projects</Link>
           <Link href='/contact' className="hov-txt text-xl leading-10">contact</Link>
         </div>
-      </div>
-      <div className="big-circle bg-primary dark:bg-secondary animate-fade animate-once animate-normal animate-fill-forwards hover:bg-accentred">
-        <div className="small-circle bg-secondary dark:bg-primary"></div>
       </div>
     </div>
   )
