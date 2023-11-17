@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@heroicons/react": "^2.0.18",
+    "formik": "^2.4.5",
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18",
-    "tailwindcss-animated": "^1.0.1"
+    "tailwindcss-animated": "^1.0.1",
+    "yup": "^1.3.2"
   },
   "devDependencies": {
     "@types/node": "20.9.0",

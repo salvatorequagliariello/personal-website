@@ -1,32 +1,6 @@
 import CustomNavigator from "../../components/CustomNavigator";
 import ProjectPreview from "../../components/ProjectPreview";
-
-const projects = [
-    {
-        name: 'Portfolio',
-        image: '/images/portfolio-screen.png'
-    },
-    {
-        name: 'Timeless',
-        image: '/images/timeless-screen.png'
-    },
-    {
-        name: 'ai.GO',
-        image: '/images/aigo-screen.png'
-    },
-    {
-        name: 'eCommerce CRM',
-        image: '/images/crm-screen.png'
-    },
-    {
-        name: 'uChat',
-        image: '/images/uchat-screen.png'
-    },
-    {
-        name: 'Lotto Game',
-        image: '/images/lotto-screen.png'
-    },
-]
+import projects from 'app/projectslist.js'
 
 const Projects = () => {
     return (
