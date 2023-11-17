@@ -38,16 +38,16 @@ const Contact = () => {
     });
 
     return (
-        <div>
+        <div className="w-full my-10 md:my-0 md:pb-24">
             <CustomNavigator pageName='contact' path='/' pathName='home'/>
             <div className="text-center font-light">
-                <h1 className="text-5xl animate-fade-down animate-once animate-delay-900 animate-normal animate-fill-forwards">Let's work together!</h1>
-                <p className="text-2xl animate-fade-up animate-once animate-delay-900 animate-normal animate-fill-forwards">(or just say "hi"!)</p>
+                <h1 className="text-3xl md:text-5xl animate-fade-down animate-once animate-normal animate-fill-forwards">Let's work together!</h1>
+                <p className="text-xl md:text-2xl animate-fade-up animate-once animate-normal animate-fill-forwards">(or just say "hi"!)</p>
             </div>
             {!formSubmission.submitted && formSubmission.errors.length == 0 && 
                 <form onSubmit={formik.handleSubmit} id="contactForm" className="contact-form flex flex-col gap-7 mt-7">
-                    <div className="w-full flex justify-center gap-20">
-                        <div className="w-full animate-fade-right animate-once animate-delay-900 animate-normal animate-fill-forwards">
+                    <div className="w-full flex flex-col gap-7 sm:flex-row sm:justify-center md:gap-20">
+                        <div className="w-full animate-fade-right animate-once animate-normal animate-fill-forwards">
                             <label className={`font-light text-xl ${formik.touched.name && formik.errors.name ? " text-orange-500" : ""}`}>
                                 Name
                             </label>
@@ -62,7 +62,7 @@ const Contact = () => {
                             />
                             {formik.touched.name && formik.errors.name && <p className="font-light text-orange-500">{formik.errors.name}</p>}
                         </div>
-                        <div className="w-full animate-fade-left animate-once animate-delay-900 animate-normal animate-fill-forwards">
+                        <div className="w-full animate-fade-left animate-once animate-normal animate-fill-forwards">
                             <label className={`font-light text-xl ${formik.touched.email && formik.errors.email ? " text-orange-500" : ""}`}>
                                 Email
                             </label>
@@ -102,20 +102,20 @@ const Contact = () => {
             }
             {formSubmission.submitted && formSubmission.errors.length == 0 && 
                 <div className="text-center mt-16 animate-fade animate-once animate-normal animate-fill-forwards">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="w-8 h-8 mx-auto stroke-secondary dark:stroke-primary bg-primary dark:bg-secondary hov-txt hover:bg-accentred">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="w-10 h-10 mx-auto stroke-secondary dark:stroke-primary bg-primary dark:bg-secondary hov-txt hover:bg-accentred">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
                     </svg>
-                    <p className="text-3xl">Thank you for getting in touch!</p>
-                    <p className="font-light text-xl">I've received your message and will respond within 24 hours.</p>
+                    <p className="text-2xl sm:text-3xl mt-3">Thank you for getting in touch!</p>
+                    <p className="mt-2 sm:mt-0 font-light text-xl">I've received your message and will respond within 24 hours.</p>
                 </div>
             }
             {!formSubmission.submitted && formSubmission.errors.length >= 1 && 
                 <div className="text-center mt-16 animate-fade animate-once animate-normal animate-fill-forwards">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="w-8 h-8 mx-auto stroke-secondary dark:stroke-primary bg-primary dark:bg-secondary hov-txt hover:bg-accentred">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="w-10 h-10 mx-auto stroke-secondary dark:stroke-primary bg-primary dark:bg-secondary hov-txt hover:bg-accentred">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 16.318A4.486 4.486 0 0012.016 15a4.486 4.486 0 00-3.198 1.318M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
                     </svg>
-                    <p className="text-3xl">Something gone wrong!</p>
-                    <p className="font-light text-xl">Please, try again later!</p>
+                    <p className="text-2xl sm:text-3xl mt-3">Something gone wrong!</p>
+                    <p className="mt-2 sm:mt-0 font-light text-xl">Please, try again later!</p>
                 </div>
             }
         </div>
