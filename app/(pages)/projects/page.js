@@ -4,13 +4,13 @@ import projects from 'app/projectslist.js'
 
 const Projects = () => {
     return (
-        <div className="w-full">
+        <div className="w-full my-10 md:my-0 md:pb-24">
             <CustomNavigator pageName='projects' path='/' pathName='home'/>
-            <div className="w-full pb-36 animate-fade-up animate-once animate-ease-out animate-normal animate-fill-forwards animate-delay-2000 scroll-smooth">
+            <div className="w-full  animate-fade-up animate-once animate-ease-out animate-normal animate-fill-forwards scroll-smooth">
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-10">
                     {projects.map(project => {
                         return (
-                        <li className="w-full h-80">
+                        <li className="w-full h-56 sm:h-72 md:h-80">
                             <ProjectPreview name={project.name} image={project.image} />
                         </li>
                         )
