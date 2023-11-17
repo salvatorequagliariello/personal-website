@@ -41,13 +41,13 @@ const Contact = () => {
         <div>
             <CustomNavigator pageName='contact' path='/' pathName='home'/>
             <div className="text-center font-light">
-                <h1 className="text-5xl">Let's work together!</h1>
-                <p className="text-2xl">(or just say "hi"!)</p>
+                <h1 className="text-5xl animate-fade-down animate-once animate-delay-900 animate-normal animate-fill-forwards">Let's work together!</h1>
+                <p className="text-2xl animate-fade-up animate-once animate-delay-900 animate-normal animate-fill-forwards">(or just say "hi"!)</p>
             </div>
             {!formSubmission.submitted && formSubmission.errors.length == 0 && 
                 <form onSubmit={formik.handleSubmit} id="contactForm"  className="flex flex-col gap-7 mt-7">
                     <div className="w-full flex justify-center gap-20">
-                        <div className="w-full">
+                        <div className="w-full animate-fade-right animate-once animate-delay-900 animate-normal animate-fill-forwards">
                             <label className={`font-light text-xl ${formik.touched.name && formik.errors.name ? " text-orange-500" : ""}`}>
                                 Name
                             </label>
@@ -62,7 +62,7 @@ const Contact = () => {
                             />
                             {formik.touched.name && formik.errors.name && <p className="font-light text-orange-500">{formik.errors.name}</p>}
                         </div>
-                        <div className="w-full">
+                        <div className="w-full animate-fade-left animate-once animate-delay-900 animate-normal animate-fill-forwards">
                             <label className={`font-light text-xl ${formik.touched.email && formik.errors.email ? " text-orange-500" : ""}`}>
                                 Email
                             </label>
@@ -79,7 +79,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="w-full">
+                    <div className="w-full animate-fade-up animate-once animate-delay-900 animate-normal animate-fill-forwards">
                         <label className={`font-light text-xl ${formik.touched.message && formik.errors.message ? " text-orange-500" : ""}`}>
                             Message
                         </label>
@@ -95,7 +95,12 @@ const Contact = () => {
                         {formik.touched.message && formik.errors.message && <p className="font-light text-orange-500">{formik.errors.message}</p>}
                     </div>
 
-                        <button type="submit" className="form-button p-font-md fill-txt hoverable">SEND</button>
+                        <button 
+                            type="submit" 
+                            className="w-1/3 py-2 mx-auto bg-primary dark:bg-secondary text-secondary dark:text-primary text-xl font-light hover:bg-accentred animate-fade-up animate-once animate-delay-900 animate-normal animate-fill-forwards"
+                        >
+                            SEND
+                        </button>
                 </form>
             }
         </div>
