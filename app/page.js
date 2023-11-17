@@ -3,8 +3,8 @@ import Link from "next/link";
 const Home = () => {
   return (
     <div>
-      <div className="big-circle bg-primary dark:bg-secondary animate-fade animate-once animate-normal animate-fill-forwards hover:bg-accentred">
-        <div className="small-circle bg-secondary dark:bg-primary"></div>
+      <div className="big-circle bg-primary dark:bg-secondary animate-fade-up animate-once animate-normal animate-fill-forwards hover:bg-accentred">
+        <div className="small-circle bg-secondary dark:bg-primary hover:bg-accentred"></div>
       </div>
       <div className="flex text-center justify-between font-light">
         <div className="text-left animate-fade-right animate-once animate-delay-900 animate-normal animate-fill-forwards">
