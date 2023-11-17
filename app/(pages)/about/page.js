@@ -2,9 +2,9 @@ import CustomNavigator from "../../components/CustomNavigator";
 
 const About = () => {
     return (
-        <div>
+        <div className="my-10 md:my-0 md:pb-24">
             <CustomNavigator pageName='about' path='/' pathName='home'/>
-            <div className="text-justify text animate-fade-up animate-once animate-ease-out animate-normal animate-fill-forwards animate-delay-2000 scroll-smooth">
+            <div className="text-justify text animate-fade-up animate-once animate-ease-out animate-normal animate-fill-forwards scroll-smooth">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquam, dui in dignissim feugiat, libero magna tincidunt sapien, a rhoncus neque risus sed neque. Vivamus tincidunt, ipsum in tincidunt egestas, diam est pretium eros, et blandit leo orci id odio. Ut at ante et diam finibus tincidunt. Nunc ac vulputate justo. Quisque sollicitudin sem vitae sapien mattis pulvinar.
                 </p>
