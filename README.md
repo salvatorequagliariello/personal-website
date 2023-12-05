@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img width="250" alt="ai go-logo (1)" src="https://github.com/salvatorequagliariello/personal-website/assets/109867120/0ec4882b-5abe-4e49-8c1d-cf3e8f2c23f3"> 
+</div>
+<h1 align="center">
+  My website  🖥️
+</h1>
+My personal website serves as my developer portfolio, showcasing my projects, bio, and providing a convenient way to get in touch with me. Built with Next.js and React, and styled with Tailwind, the website embodies a minimalistic design approach. The color scheme predominantly features black and white, with tasteful red accents that add a touch of vibrancy.
 
-## Getting Started
+<br>
 
-First, run the development server:
+## Table of Contents  
+-  [Tech Stack](https://github.com/salvatorequagliariello/uchat-app/blob/main/README.md#tech-stack)
+-  [Overview](https://github.com/salvatorequagliariello/uchat-app/blob/main/README.md#overview)
+-  [Features](https://github.com/salvatorequagliariello/uchat-app/blob/main/README.md#overview)
+-  [Showcase](https://github.com/salvatorequagliariello/uchat-app/blob/main/README.md#showcase)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech stack
+<div align="center"> 
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> 
+  <img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
+  <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
+</div>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Overview
+At the core of this website is the belief that simplicity and elegance can create a powerful user experience. The minimalistic design allows the focus to be on the content, ensuring that visitors can easily navigate through my projects, learn about my background, and reach out to me. The central rotating moon on the homepage symbolizes the constant evolution and growth that I strive for as a developer.
 
-## Learn More
+The entire website is based on the SPA concept. Through the three main sections - "About," "Projects," and "Contact" - I aim to provide visitors with a holistic understanding of who I am as a developer and how I can contribute to their projects. 
 
-To learn more about Next.js, take a look at the following resources:
+In the "About" section, you will find a detailed biography where I share my journey, skills, and passion for development. This section serves as an introduction, allowing you to get to know me on a personal and professional level.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The "Projects" section is where I showcase my past and ongoing projects. By exploring this section, you can gain insights into my technical expertise and problem-solving abilities.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Lastly, the "Contact" section provides a convenient way for potential collaborators, clients, and employers to reach out to me. A user-friendly form is available, allowing you to send me a message directly. I value open and transparent communication, and I'm excited to engage with fellow developers, clients, and potential collaborators.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
