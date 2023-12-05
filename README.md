@@ -4,7 +4,8 @@
 <h1 align="center">
   My website  🖥️
 </h1>
-My personal website serves as my developer portfolio, showcasing my projects, bio, and providing a convenient way to get in touch with me. Built with [NextJS](https://nextjs.org) and [React](https://react.dev), and styled with [Tailwind](https://tailwindcss.com), the website embodies a minimalistic design approach. The color scheme predominantly features black and white, with tasteful red accents that add a touch of vibrancy.
+
+My personal website serves as my developer portfolio, showcasing my projects, bio, and providing a convenient way to get in touch with me. Built with [NextJS](https://nextjs.org) and [React](https://react.dev), and styled with [TailwindCSS](https://tailwindcss.com/), the website embodies a minimalistic design approach. The color scheme predominantly features black and white, with tasteful red accents that add a touch of vibrancy.
 
 <br>
 
