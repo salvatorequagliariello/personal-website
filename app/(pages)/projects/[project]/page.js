@@ -9,7 +9,9 @@ const ProjectPage = ({ params }) => {
             <CustomNavigator pageName={project.pathName} path='/projects' pathName='projects' />
             <div className="flex flex-col gap-5 animate-fade-up animate-once animate-delay-900 animate-normal animate-fill-forwards">
                 <h1 className="text-4xl md:text-6xl font-light text-center">{project.name}</h1>
-                <img src={project.cover} className="w-full h-56 object-contain sm:h-72 md:h-80" />
+                <div className="w-full py-4 bg-primary dark:bg-secondary">
+                    <img src={project.cover} className="w-full h-56 object-contain sm:h-72 md:h-80" />
+                </div>
                 <div className="w-full h-min flex flex-col gap-3">
                     <div className="w-min mx-auto flex gap-3 justify-center">
                         <a href={project.githubLink} target="_blank" className="flex h-min gap-2 hover:bg-accentred bg-primary dark:bg-secondary p-2 group">
