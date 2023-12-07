@@ -56,11 +56,16 @@ const projects = [
     },
     {
         name: 'uChat',
-        cover: '/images/uchat-screen.png',
-        liveLink: 'https:www.salvatorequagliariello.com',
-        githubLink: 'https:www.github.com',
-        tech: 'React, NextJS, Tailwind',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum ornare magna, at eleifend sapien faucibus eu. Etiam interdum velit vitae nunc vulputate, ac tempus metus dictum. Morbi eget ultrices velit. Nullam eu tortor est. Etiam sit amet diam vel libero hendrerit gravida. Aliquam sed posuere magna. Vivamus molestie ante eget tortor congue suscipit. Integer vulputate convallis sagittis. Aliquam fermentum ut urna lacinia posuere. Fusce facilisis aliquet eleifend. Cras condimentum bibendum eros eget blandit.',
+        cover: '/images/uchat/uchat-cover.png',
+        liveLink: 'https://uchat-app.vercel.app/',
+        githubLink: 'https://github.com/salvatorequagliariello/uchat-app',
+        tech: 'TypeScript, Vue.js, NuxtJS, SCSS, Firebase, Vercel',
+        descriptionOne: 'Developed with Vue.js and NuxtJS, and written TypeScript, uChat offers a powerful, efficient and free platform for users to chat with their friends and loved ones. With its sleek and modern design, styled with SCSS, uChat provides an aesthetically pleasing and intuitive user experience.',
+        descriptionTwo: `uChat's authentication system is custom-made. This ensures a secure and personalized login experience for users. By leveraging the power of Firebase and Vue.js, uChat securely stores user data, providing peace of mind and easy access to information.`,
+        descriptionThree: `The chat system is also based on a Firebase database and ensures real-time and reliable communication, while images are stored in a Firebase Storage instance. Users can add their friends by simply searching for their user name in the dedicated search bar.`,
+        descriptionFour: `With its user-friendly interface and responsive design, uChat adapts seamlessly to various devices and screen sizes. Whether you're accessing uChat on a desktop, tablet, or mobile device, the app guarantees an optimal user experience`,
+        imageOne: '/images/uchat/uchat-1.png',
+        imageTwo: '/images/uchat/uchat-2.png',
         pathName: 'uChat'
     },
     {
