@@ -40,13 +40,19 @@ const projects = [
         pathName: 'ai.GO'
     },
     {
-        name: 'eCommerce CRM',
-        cover: '/images/crm-screen.png',
-        liveLink: 'https:www.salvatorequagliariello.com',
-        githubLink: 'https:www.github.com',
+        name: 'eCommerce CMS',
+        cover: '/images/cms/cms-cover.png',
+        liveLink: 'https://my-ecommerce-dashboard-project.vercel.app/',
+        githubLink: 'https://github.com/salvatorequagliariello/ecommerce-dashboard',
         tech: 'React, NextJS, Tailwind',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum ornare magna, at eleifend sapien faucibus eu. Etiam interdum velit vitae nunc vulputate, ac tempus metus dictum. Morbi eget ultrices velit. Nullam eu tortor est. Etiam sit amet diam vel libero hendrerit gravida. Aliquam sed posuere magna. Vivamus molestie ante eget tortor congue suscipit. Integer vulputate convallis sagittis. Aliquam fermentum ut urna lacinia posuere. Fusce facilisis aliquet eleifend. Cras condimentum bibendum eros eget blandit.',
-        pathName: 'CRM'
+        tech: 'TypeScript, React, NextJS, TailwindCSS, Vercel, Stripe, Prisma, Planetscale',
+        descriptionOne: 'Built using mainly React and NextJS and written in TypeScript, this user-friendly and responsive CMS will allow you to control and manage multiple stores with a single account through a sleek and modern UI. All you have to do to start using it is create an account and connect your E-Commerce Front-end to it through APIs.',
+        descriptionTwo: 'The authentication for the web-app relies on Clerk, a powerful and secure authentication and user management system, while its UI is the combined result of TailwindCSS and shadcn/ui a collection of components built on top of Radix UI and Tailwind CSS. The entire web-app has been designed to specifically manage wristwatch E-commerces, but can be easily refactored to be able to manage any kind of E-shop.',
+        descriptionThree: `The CMS dashboard let the user easily navigate and manage sales, payments, billboards, different categories and products, from a desktop, a laptop or even a smartphone. The user can create one or more stores to manage and then switch from one to another just by using a cascade menu. Then it's possible to create new products simply uploading a photo, a description and then choosing which category it belongs to. All the billboards and products images are uploaded on Cloudinary, and all the stores data is organized in a MySQL database hosted on Planetscale and managed through Prisma.`,
+        descriptionFour: `All the payments and sales details are provided by the Stripe API.`,
+        imageOne: '/images/cms/cms-1.png',
+        imageTwo: '/images/cms/cms-2.png',
+        pathName: 'CMS'
     },
     {
         name: 'uChat',
