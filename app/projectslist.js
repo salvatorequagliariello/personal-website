@@ -70,11 +70,14 @@ const projects = [
     },
     {
         name: 'Lotto Game',
-        cover: '/images/lotto-screen.png',
-        liveLink: 'https:www.salvatorequagliariello.com',
-        githubLink: 'https:www.github.com',
+        cover: '/images/lotto/lotto-cover.png',
+        githubLink: 'https://github.com/salvatorequagliariello/lotto-game',
         tech: 'React, NextJS, Tailwind',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum ornare magna, at eleifend sapien faucibus eu. Etiam interdum velit vitae nunc vulputate, ac tempus metus dictum. Morbi eget ultrices velit. Nullam eu tortor est. Etiam sit amet diam vel libero hendrerit gravida. Aliquam sed posuere magna. Vivamus molestie ante eget tortor congue suscipit. Integer vulputate convallis sagittis. Aliquam fermentum ut urna lacinia posuere. Fusce facilisis aliquet eleifend. Cras condimentum bibendum eros eget blandit.',
+        descriptionOne: `A NodeJS CLI Lottery App, based on the Italian Lotto® System. The App is the final project for the Programming Course by TomorrowDevs.`,
+        descriptionTwo: `The project is built on NodeJS, mainly using OOP model. Being a replica of the original Lotto® System, the software is able to generate new Tickets, to simulate a Lottery Draw and to calculate prizes in the case of a winning ticket. Built using Prompts, the software helps the user generating new tickets and creating new game instances, thanks to an easy-to-use CLI. However, multiple tickets generation or game instances generation are also possible through simple code declaration. It's possible to see your tickets in a nice ASCII formatted illustration.`,
+        descriptionThree: `The entire project code is documented and tested through Jest. The repository can be downloaded to play or to create somthing new on top of it.`,
+        imageOne: '/images/lotto/lotto-1.png',
+        imageTwo: '/images/lotto/lotto-2.png',
         pathName: 'Lotto'
     },
 ];
