@@ -11,7 +11,7 @@ const Projects = () => {
                     {projects.map(project => {
                         return (
                         <li className="w-full h-56 sm:h-72 md:h-80">
-                            <ProjectPreview name={project.name} image={project.image} />
+                            <ProjectPreview name={project.name} image={project.cover} />
                         </li>
                         )
                     })}

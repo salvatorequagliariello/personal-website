@@ -95,7 +95,7 @@ const Contact = () => {
                         {formik.touched.message && formik.errors.message && <p className="font-light text-orange-500">{formik.errors.message}</p>}
                     </div>
 
-                    <button type="submit" className="form-button w-1/3 py-2 text-xl mx-auto font-light bg-primary dark:bg-secondary text-secondary dark:text-primary hover:bg-accentred">
+                    <button type="submit" className="form-button w-1/3 py-2 text-xl mx-auto font-light bg-primary dark:bg-secondary text-secondary dark:text-primary hover:bg-accentred animate-fade-up animate-once animate-delay-900 animate-normal animate-fill-forwards">
                         SEND
                     </button>
                 </form>
